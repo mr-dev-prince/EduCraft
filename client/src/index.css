@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+#0A4893  -> blue
+#15151D  -> black 
+#ECEFF2  -> white
+
+*/
+
+body,
+html {
+  color: #15151d;
+  background: #ffffff;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.drone {
+  animation: move 10s ease-in infinite;
+}
+
+@keyframes move {
+  0% {
+    padding-left: 0%;
+  }
+  50% {
+    padding-left: 80%;
+  }
+  100% {
+    padding-left: 0%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #e8e9ea;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8e9ea;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #595e64;
+  border-radius: 5px;
+}
+
+.customOutline {
+  @apply outline outline-1 outline-red-800;
+}
+
+.button {
+  @apply bg-[#EEBB08] p-3 text-center rounded-xl font-semibold text-[#9600ae] hover:scale-95 duration-200;
+}
+
+/* ScrollAnimation----1---------> */
+
+.scroll-parent {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 20s linear infinite;
+}
+
+.primary {
+  animation: primary 20s linear infinite;
+}
+
+.secondary {
+  animation: secondary 20s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    top: 0%;
+  }
+  to {
+    top: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0%;
+  }
+}
+
+/* ScrollAnimation2--------------> */
+
+.scroll-parent2 {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.scroll-element2 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  animation: primary 20s linear infinite;
+}
+
+.primary2 {
+  animation: primary2 20s linear infinite;
+}
+
+.secondary2 {
+  animation: secondary2 20s linear infinite;
+}
+
+@keyframes primary2 {
+  from {
+    bottom: 0%;
+  }
+  to {
+    bottom: -100%;
+  }
+}
+
+@keyframes secondary2 {
+  from {
+    bottom: 100%;
+  }
+  to {
+    bottom: 0%;
+  }
+}
+
+/* Scrollanimation-3-----------------> */
+
+.scroll-parent3 {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.scroll-element3 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  animation: primary3 30s linear infinite;
+}
+
+.primary3 {
+  animation: primary3 30s linear infinite;
+}
+
+.secondary3 {
+  animation: secondary3 30s linear infinite;
+}
+
+@keyframes primary3 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary3 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/* scroll-card */
+
+.scroll-card {
+  @apply h-[200px] w-full rounded-xl overflow-hidden;
+}
+
+/* AuthenticityCard */
+
+.container {
+  @apply flex w-44 flex-col justify-center items-center gap-2;
+}
+
+.elem {
+  @apply p-8 rounded-xl grid items-center bg-[#9600AE]/[0.1] text-[#ECEFF2];
+}
+
+.text-content {
+  @apply w-36 text-center text-xl font-semibold;
+}
+
+/* Center div */
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.grid-style {
+  @apply col-span-1 row-span-1 rounded-xl bg-[#9600AE]/[0.2]
+}
+
+.grid-style-2 {
+  @apply col-span-2 row-span-1 rounded-xl bg-[#9600AE]/[0.2]
+}
