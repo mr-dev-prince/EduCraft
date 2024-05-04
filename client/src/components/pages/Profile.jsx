@@ -1,6 +1,4 @@
 import React from "react";
-import usericon from "../../assets/user.png";
-import loader from "../../assets/Loader.png";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useRecoilValue } from "recoil";
@@ -31,7 +29,7 @@ const Profile = () => {
             <div className="w-[10%] h-fit flex justify-center items-center">
               <img
                 className="h-28 w-28 object-cover "
-                src={usericon}
+                src="https://ik.imagekit.io/princeSherwa/Personal/user.png?updatedAt=1714812147304"
                 alt="user"
               />
             </div>
@@ -69,7 +67,7 @@ const Profile = () => {
         </div>
       ) : (
         <div className="w-full  min-h-screen flex justify-center items-center px-20 py-12">
-          <img className=" animate-spin  h-24  " src={loader} alt="" />
+          <img className=" animate-spin  h-24  " src="https://ik.imagekit.io/princeSherwa/Personal/Loader.png?updatedAt=1714812140080" alt="" />
         </div>
       )}
     </>

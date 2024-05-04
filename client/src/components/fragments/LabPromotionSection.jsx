@@ -1,11 +1,10 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import img1 from "../../assets/svg2.svg";
 
 const LabPromotionSection = () => {
   return (
-    <div className="flex justify-between">
-      <div className="p-12 pt-20">
+    <div className="flex justify-between w-full">
+      <div className="md:p-12 md:pt-20  w-full px-4 pt-8" >
         <p className="text-4xl font-bold tracking-wider">
           Want <span className="text-5xl text-[#9600ae] ">Free* Labs</span> for
           your <br />{" "}
@@ -38,7 +37,7 @@ const LabPromotionSection = () => {
         </div>
       </div>
       <div className="pr-12 hidden md:flex justify-center items-center w-[50%]">
-        <img className="h-[500px]" src={img1} alt="" />
+        <img className="h-[500px]" src="https://ik.imagekit.io/princeSherwa/Personal/svg2.svg" alt="" />
       </div>
     </div>
   );

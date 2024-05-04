@@ -3,12 +3,10 @@ import AchieverCard from "./cards/AchieverCard";
 
 const AchieverSection = () => {
   return (
-    <div className="pl-12 pr-12 mt-24 flex flex-col">
-      <div className="grid place-items-center">
-        <p className="text-5xl pl-12 font-extrabold tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
-          Our Achievers
-        </p>
-      </div>
+    <div className="md:px-12 md:mt-24 mt-8 flex flex-col">
+      <p className="text-5xl md:pl-12 font-extrabold tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
+        Our Achievers
+      </p>
       <div className="main-container p-12 md:h-[300px] gap-32 flex flex-wrap md:justify-between justify-center mt-28">
         <AchieverCard
           name="Gantavya Malviya"

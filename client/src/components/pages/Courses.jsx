@@ -1,15 +1,7 @@
 import React from "react";
-import img from "../../assets/collegestudents.png";
-import img2 from "../../assets/bgtexture2.png";
 import CourseCard from "../fragments/cards/CourseCard";
 import TestimonialSection from "../fragments/TestimonialSection";
 import AchieverSection from "../fragments/AchieverSection";
-import apple from "../../assets/apple.png";
-import google from "../../assets/google.png";
-import samsung from "../../assets/samsung.png";
-import netflix from "../../assets/netflix.png";
-import meta from "../../assets/meta.png";
-import Amazon from "../../assets/amazon.png";
 import { HashLink } from "react-router-hash-link";
 import {
   FiFacebook,
@@ -18,7 +10,6 @@ import {
   FiTwitter,
   FiYoutube,
 } from "react-icons/fi";
-import logo from "../../assets/mainLogo.png";
 import {
   techcourses,
   marketincourses,
@@ -30,7 +21,7 @@ const Courses = () => {
     <>
       <div className="w-full h-[500px] relative">
         <img
-          src={img2}
+          src="https://ik.imagekit.io/princeSherwa/Personal/bgtexture2.png"
           className="absolute w-full h-full object-cover top-0 left-0 opacity-30"
           alt=""
         />
@@ -44,7 +35,7 @@ const Courses = () => {
             </p>
           </div>
           <div className="flex z-10 justify-center items-center flex-col p-12 pr-28">
-            <img src={img} alt="" className="h-[350px] object-cover" />
+            <img src="https://ik.imagekit.io/princeSherwa/Personal/collegestudents.png?updatedAt=1714812133763" alt="" className="h-[350px] object-cover" />
           </div>
         </div>
         <div>
@@ -123,12 +114,12 @@ const Courses = () => {
           </p>
         </div>
         <div className="grid grid-cols-4 place-items-center gap-20 bg-[#9600AE]/[0.2] mt-10 py-10">
-          <img className="h-36" src={Amazon} alt="" />
-          <img className="h-36 " src={google} alt="" />
-          <img className="h-36" src={samsung} alt="" />
-          <img className="h-36" src={netflix} alt="" />
-          <img className="h-36 col-start-2" src={meta} alt="" />
-          <img className="h-36" src={apple} alt="" />
+          <img className="h-36" src="https://ik.imagekit.io/princeSherwa/Personal/amazon.png?updatedAt=1714812128987" alt="" />
+          <img className="h-36 " src="https://ik.imagekit.io/princeSherwa/Personal/google.png?updatedAt=1714812134395" alt="" />
+          <img className="h-36" src="https://ik.imagekit.io/princeSherwa/Personal/samsung.png?updatedAt=1714812143813" alt="" />
+          <img className="h-36" src="https://ik.imagekit.io/princeSherwa/Personal/netflix.png?updatedAt=1714812140609" alt="" />
+          <img className="h-36 col-start-2" src="https://ik.imagekit.io/princeSherwa/Personal/meta.png?updatedAt=1714812139982" alt="" />
+          <img className="h-36" src="https://ik.imagekit.io/princeSherwa/Personal/apple.png?updatedAt=1714812128716" alt="" />
         </div>
       </div>
       <div className="mt-20">
@@ -139,7 +130,7 @@ const Courses = () => {
       </div>
       <div>
         <div className="grid place-items-center mt-12">
-          <img className="h-20" src={logo} alt="" />
+          <img className="h-20" src="https://ik.imagekit.io/princeSherwa/Personal/mainLogo.png?updatedAt=1714812140235" alt="" />
         </div>
         <div className="w-full grid place-items-center mt-8 gap-6">
           <p className="text-xl font-semibold">Let's Connect</p>

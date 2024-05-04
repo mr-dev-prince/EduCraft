@@ -6,12 +6,10 @@ import { techcourses } from "../pages/ProductObject";
 
 const CourseSection = () => {
   return (
-    <div className="pl-12 pr-12 mt-24 flex flex-col">
-      <div className="grid place-items-center">
-        <p className="text-5xl pl-12 font-extrabold tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
-          Learn From The Best
-        </p>
-      </div>
+    <div className="md:px-12 md:mt-24 mt-5 flex flex-col">
+      <p className="text-5xl text-center md:pl-12 font-extrabold tracking-wider outline bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
+        Learn From The Best
+      </p>
       <div className="flex flex-wrap gap-12 md:justify-between justify-center items-center mt-16">
         {techcourses.map((item) => (
           <CourseCard

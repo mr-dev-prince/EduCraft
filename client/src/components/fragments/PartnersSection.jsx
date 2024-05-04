@@ -7,7 +7,6 @@ import {
   FiYoutube,
 } from "react-icons/fi";
 import { HashLink } from "react-router-hash-link";
-import logo from "../../assets/mainLogo.png";
 import ScrollAnimation3 from "./ScrollAnimation3";
 
 const PartnersSection = () => {
@@ -35,7 +34,11 @@ const PartnersSection = () => {
         </div>
       </div>
       <div className="grid place-items-center mt-12">
-        <img className="h-20" src={logo} alt="" />
+        <img
+          className="h-20"
+          src="https://ik.imagekit.io/princeSherwa/Personal/mainLogo.png"
+          alt=""
+        />
       </div>
       <div className="w-full grid place-items-center mt-8 gap-6">
         <p className="text-xl font-semibold">Let's Connect</p>

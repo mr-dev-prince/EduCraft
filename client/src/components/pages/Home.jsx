@@ -11,7 +11,7 @@ import HomeContent from "../fragments/HomeContent";
 const Home = () => {
   return (
     <>
-      <div className="flex justify-between md:px-16 px-4 items-center h-[90vh] w-full">
+      <div className="flex justify-between md:px-16 px-4 items-center h-fit md:h-[90vh] py-8 w-full">
         <HomeContent />
       </div>
       <AuthenticityCard />

@@ -1,6 +1,5 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-import img from "../../../assets/profile.png";
 
 const TestimonialCard = () => {
   return (
@@ -18,7 +17,7 @@ const TestimonialCard = () => {
         blanditiis rerum, in, quas quos molestiae.
       </p>
       <div className="mt-8 flex justify-start gap-4 items-center">
-        <img src={img} className="h-10" alt="" />
+        <img src="https://ik.imagekit.io/princeSherwa/Personal/profile.png" className="h-10" alt="" />
         <div>
           <p className="font-semibold">Kishan Kumar</p>
           <p>Founder, AxilZest</p>

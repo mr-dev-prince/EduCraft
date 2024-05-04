@@ -1,28 +1,27 @@
 import React from "react";
-import img2 from "../../assets/Robo.png";
 import { HashLink } from "react-router-hash-link";
-import img1 from "../../assets/skill3.jpg";
-import img3 from "../../assets/skill2.jpg";
 
 const ChooseUsSection = () => {
   return (
     <div className="mt-24 flex flex-col ">
-      <div className="grid place-items-center">
-        <p className="text-5xl pl-12 h-[70px]  font-extrabold tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
-          Why Choose Us?
-        </p>
-      </div>
+      <p className="text-5xl md:pl-12 md:h-[70px]  font-extrabold tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
+        Why Choose Us?
+      </p>
       <div className="relative md:h-[450px] bg-[#9600AE]/[0.2] mt-12 flex flex-wrap justify-center  md:justify-between items-center">
-        <img src={img2} className="hidden md:absolute h-48 right-20 -top-16" alt="" />
+        <img
+          src="https://ik.imagekit.io/princeSherwa/Personal/Robo.png"
+          className="hidden md:absolute h-48 right-20 -top-16"
+          alt=""
+        />
         <div className="h-full md:w-[50%] w-full flex justify-center items-center">
           <div className=" hidden md:grid grid-cols-6 grid-rows-6 h-full w-full p-8 pl-12">
             <img
-              src={img1}
+              src="https://ik.imagekit.io/princeSherwa/Personal/skill3.jpg"
               className="col-start-1 col-end-4 row-start-1 row-end-5 w-[350px] h-[250px] rounded-lg object-cover shadow-lg shadow-[#9600AE]"
               alt=""
             />
             <img
-              src={img3}
+              src="https://ik.imagekit.io/princeSherwa/Personal/skill2.jpg"
               className="col-start-3 col-end-6 row-start-3 row-end-6 w-[350px] h-[250px] rounded-xl object-cover shadow-lg shadow-[#9600AE]"
               alt=""
             />

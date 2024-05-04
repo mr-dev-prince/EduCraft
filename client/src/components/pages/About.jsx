@@ -1,19 +1,17 @@
 import React from "react";
-import about from "../../assets/about.png";
-import robo2 from "../../assets/Robo2.png";
-import robo3 from "../../assets/Robo3.png";
+
 
 const About = () => {
   return (
     <div className="w-full">
       <div className="grid place-items-center">
-        <img src={about} className="h-32" alt="" />
+        <img src="https://ik.imagekit.io/princeSherwa/Personal/about.png" className="h-32" alt="" />
       </div>
       <div className="flex h-[600px]">
         <div className="flex justify-center items-center w-[50%]  pl-12">
           <div className="relative h-[80%] w-[90%]">
-            <img src={robo2} className="w-[45%] " alt="" />
-            <img src={robo3} className="w-[55%] absolute left-52 top-5" alt="" />
+            <img src="https://ik.imagekit.io/princeSherwa/Personal/Robo2.png" className="w-[45%] " alt="" />
+            <img src="https://ik.imagekit.io/princeSherwa/Personal/Robo3.png" className="w-[55%] absolute left-52 top-5" alt="" />
           </div>
         </div>
         <div className="w-[50%] ">

@@ -1,10 +1,7 @@
-import course from "../../assets/course.jpg";
-import blog from "../../assets/blog.jpg";
-
 export const techcourses = [
   {
     id: 1,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "React Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -12,7 +9,7 @@ export const techcourses = [
   },
   {
     id: 2,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Javascript Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -20,7 +17,7 @@ export const techcourses = [
   },
   {
     id: 3,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Science with Python",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -28,7 +25,7 @@ export const techcourses = [
   },
   {
     id: 4,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Structures",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -39,7 +36,7 @@ export const techcourses = [
 export const marketincourses = [
   {
     id: 5,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Marketing Basics",
     author: "Dev Gadhvi",
     description: "Best in class React course at discount",
@@ -47,7 +44,7 @@ export const marketincourses = [
   },
   {
     id: 6,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Advertisement Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -55,7 +52,7 @@ export const marketincourses = [
   },
   {
     id: 7,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "The Mood of the Market",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -63,7 +60,7 @@ export const marketincourses = [
   },
   {
     id: 8,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Market Analysis",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -74,7 +71,7 @@ export const marketincourses = [
 export const buisnesscourses = [
   {
     id: 9,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "React Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -82,7 +79,7 @@ export const buisnesscourses = [
   },
   {
     id: 10,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Javascript Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -90,7 +87,7 @@ export const buisnesscourses = [
   },
   {
     id: 11,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Science with Python",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -98,7 +95,7 @@ export const buisnesscourses = [
   },
   {
     id: 12,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Structures",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -109,7 +106,7 @@ export const buisnesscourses = [
 export const allCourses = [
   {
     id: 1,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "React Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -117,7 +114,7 @@ export const allCourses = [
   },
   {
     id: 2,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Javascript Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -125,7 +122,7 @@ export const allCourses = [
   },
   {
     id: 3,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Science with Python",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -133,7 +130,7 @@ export const allCourses = [
   },
   {
     id: 4,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Structures",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -141,7 +138,7 @@ export const allCourses = [
   },
   {
     id: 5,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Marketing Basics",
     author: "Dev Gadhvi",
     description: "Best in class React course at discount",
@@ -149,7 +146,7 @@ export const allCourses = [
   },
   {
     id: 6,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Advertisement Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -157,7 +154,7 @@ export const allCourses = [
   },
   {
     id: 7,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "The Mood of the Market",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -165,7 +162,7 @@ export const allCourses = [
   },
   {
     id: 8,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Market Analysis",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -173,7 +170,7 @@ export const allCourses = [
   },
   {
     id: 9,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "React Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -181,7 +178,7 @@ export const allCourses = [
   },
   {
     id: 10,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Javascript Basics",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -189,7 +186,7 @@ export const allCourses = [
   },
   {
     id: 11,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Science with Python",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -197,7 +194,7 @@ export const allCourses = [
   },
   {
     id: 12,
-    src: course,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/course.jpg",
     title: "Data Structures",
     author: "Rahul Sharma",
     description: "Best in class React course at discount",
@@ -208,49 +205,49 @@ export const allCourses = [
 export const blogs = [
   {
     id: 1,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 2,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 3,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 4,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 5,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 6,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 7,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },
   {
     id: 8,
-    src: blog,
+    src: "https://ik.imagekit.io/princeSherwa/Personal/blog.jpg?updatedAt=1714812128464",
     title: "The future of Drone Development",
     description: "Lorem ipsum dolor sit amet, socrates amithab, sancro",
   },

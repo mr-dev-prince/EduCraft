@@ -3,9 +3,9 @@ import TestimonialCard from "./cards/TestimonialCard";
 
 const TestimonialSection = (props) => {
   return (
-    <div className="pl-12 pr-12 mt-12 flex flex-col">
+    <div className="md:px-12 mt-12 flex flex-col w-full">
       <div className="grid place-items-center">
-        <p className="text-5xl pl-12 font-extrabold h-[70px] tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
+        <p className="text-5xl md:pl-12 font-extrabold h-[70px] tracking-wider text-center bg-gradient-to-r from-[#9600AE] via-[#eebb08] to-[#9600AE] inline-block text-transparent bg-clip-text">
           {props.heading}
         </p>
       </div>

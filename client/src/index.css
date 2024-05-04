@@ -190,7 +190,7 @@ html {
 /* AuthenticityCard */
 
 .container {
-  @apply flex w-44 flex-col justify-center items-center gap-2;
+  @apply flex md:w-44 w-32 flex-col justify-center items-center gap-2;
 }
 
 .elem {
